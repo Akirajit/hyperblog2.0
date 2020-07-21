@@ -47,6 +47,15 @@ Comparando 2 versiones
 $git diff a27c4359191932fad9a5b639237994fbff513e66 e05d3daa69f7b31023796c2bfdacc13f911d03e2
 // compara dos archivos y muestra las diferencias
 
+-------------
+Git reset
+-------------
+$git reset a27c4359191932fad9a5b639237994fbff513e66 --hard
+// es el mas drastico, todo vuelve al estado anterior
+
+$git reset a27c4359191932fad9a5b639237994fbff513e66 --soft
+//vuelve a la version anterior, pero lo que hay en staging sigue en staging
+
 
 
 -------------
