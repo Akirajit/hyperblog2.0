@@ -21,6 +21,10 @@ $ git add <nombre_del_archivo>
 $ git add .
 // agrega,inicializa todos los archivos
 
+$git rm --cached <nombre_del_archivo>
+// lo borrra de la memoria ram, es como quitarle el add
+// lo quita del stage
+
 $ commit - m "mensaje"
 // Envia los ultimos cambios del archivo a la base de datos
 // Cada commit es una nueva version de cambio del archivo
@@ -36,6 +40,18 @@ $git log <nombre_del_archivo>
 
 $git checkout
 //trae todos los cambios desde un repositorio remoto al repo local
+
+-------------
+Configuracion de GIT
+-------------
+$git config --list
+// muestra todos los parametros guardados en Configuracion
+
+$git config --list --show-origin
+// muestra las rutas de los archivos config
+
+$git config --global user.name "Mi Nombre"
+$git config --global user.email "miCorreo@correo.com"
 
 
 -------------
