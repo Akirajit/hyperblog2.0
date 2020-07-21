@@ -1,0 +1,51 @@
+*****************
+Apuntes sobre GIT
+*****************
+-------------
+Introduccion
+-------------
+Primero que nada, hay que tener instalado GIT
+
+-------------
+Comandos
+-------------
+$ git init 
+// Se realiza sobre la carpeta donde tenemos los archivos del proyecto
+// Inicializa el repositorio
+//(base de datos donde se guardan todos los cambios de los archivos)
+
+$ git add <nombre_del_archivo>
+// Inicializa el archivo
+// Hay que indicar que el archivo existe para inicializar el control de versiones
+
+$ git add .
+// agrega,inicializa todos los archivos
+
+$ commit - m "mensaje"
+// Envia los ultimos cambios del archivo a la base de datos
+// Cada commit es una nueva version de cambio del archivo
+
+$git status
+// Indica el estado de la base de datos
+
+$git show
+// Muestra el historico de cambios
+
+$git log <nombre_del_archivo>
+// muestra la historia de cambios,versiones de un archivo especifico
+
+$git checkout
+//trae todos los cambios desde un repositorio remoto al repo local
+
+
+-------------
+Terminologia
+-------------
+
+HotFix >> Es una rama especial que se arma para debuggear un error
+luego se une con la rama original mediante un MERGE (mezcla las 2 ramas)
+
+Development >> es la experimental
+
+Master >> es la rama (branch) principal
+
