@@ -48,6 +48,13 @@ $git diff a27c4359191932fad9a5b639237994fbff513e66 e05d3daa69f7b31023796c2bfdacc
 // compara dos archivos y muestra las diferencias
 
 -------------
+Moviendonos entre versiones
+-------------
+El comando git checkout + ID del commit nos permite viajar en el tiempo.
+Podemos volver a cualquier versión anterior de un archivo específico
+ o incluso del proyecto entero. 
+ Esta también es la forma de crear ramas y movernos entre ellas.
+-------------
 Git reset
 -------------
 $git reset a27c4359191932fad9a5b639237994fbff513e66 --hard
