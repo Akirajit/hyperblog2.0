@@ -69,7 +69,7 @@ $git reset a27c4359191932fad9a5b639237994fbff513e66 --soft
 -------------
 Ramas o Branches
 -------------
-$git commit -am "mensaje del commit
+$git commit -am "mensaje del commit"
 // hace un add a todo y luego un commit en una sola linea
 
 $git commit -a 
@@ -82,6 +82,11 @@ $git branch <nombre_nueva_rama>
 $git checkout <nombre_rama>
 cambia y se ubica en otra rama o branch
 
+-------------
+Merge
+-------------
+git merge <nombre_rama>
+//El merge debe hacerse desde el branch en el cual me quiero quedar
 
 -------------
 Configuracion de GIT
