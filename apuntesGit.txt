@@ -76,6 +76,13 @@ $git commit -a
 // esto nos hace un add y un commit de una, y abre un vim
 // para colocarle un mensaje (presionar Esc y la letra "i" para insertar texto) 
 
+$git branch <nombre_nueva_rama>
+//crea una nueva rama o branch
+
+$git checkout <nombre_rama>
+cambia y se ubica en otra rama o branch
+
+
 -------------
 Configuracion de GIT
 -------------
