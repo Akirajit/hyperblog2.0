@@ -76,6 +76,8 @@ $git commit -a
 // esto nos hace un add y un commit de una, y abre un vim
 // para colocarle un mensaje (presionar Esc y la letra "i" para insertar texto) 
 
+$git branch
+// me lista las ramas existentes
 -------------
 Configuracion de GIT
 -------------
