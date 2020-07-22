@@ -63,7 +63,15 @@ $git reset a27c4359191932fad9a5b639237994fbff513e66 --hard
 $git reset a27c4359191932fad9a5b639237994fbff513e66 --soft
 //vuelve a la version anterior, pero lo que hay en staging sigue en staging
 
+-------------
+Ramas o Branches
+-------------
+$git commit -am "mensaje del commit
+// hace un add a todo y luego un commit en una sola linea
 
+$git commit -a 
+// esto nos hace un add y un commit de una, y abre un vim
+// para colocarle un mensaje (presionar Esc y la letra "i" para insertar texto) 
 
 -------------
 Configuracion de GIT
