@@ -38,6 +38,9 @@ $git show
 $git log <nombre_del_archivo>
 // muestra la historia de cambios,versiones de un archivo especifico
 
+$git log --stat
+// me muestra el historico de cambios en detalle
+
 $git checkout
 //trae todos los cambios desde un repositorio remoto al repo local
 
