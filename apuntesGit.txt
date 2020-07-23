@@ -102,7 +102,27 @@ $git config --list --show-origin
 $git config --global user.name "Mi Nombre"
 $git config --global user.email "miCorreo@correo.com"
 
+-------------
+Repositorio remoto
+-------------
+$git remote -v
+// nos muestra las URL del repositorio remoto
 
+$git remote set-url origin git@github.com:Akirajit/hyperblog2.0.git
+// para configurar la url del repositorio remoto
+
+origin es el nombre del repositorio remoto !! 
+-------------
+Generacion par llave publica privada
+-------------
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+//generacion del par de llaves
+
+eval $(ssh-agent -s)
+// evaluar si ssh esta corriendo
+
+ssh-add ~/.ssh/id_rsa
+// agregar la llave privada
 -------------
 Terminologia
 -------------
