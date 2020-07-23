@@ -123,6 +123,23 @@ eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/id_rsa
 // agregar la llave privada
+
+-------------
+Avanzado
+-------------
+$git log --all --graph --decorate --oneline
+
+// me muestra de una manera grafica copada el historico de cambios
+
+-------------
+Tags
+-------------
+$git tag -a v0.1 -m "mensaje" 57cc812
+//  crea un nuevo tag en el commit indicado
+
+$git show ref --tags
+// muestra los tags asociados a cada commit 
+
 -------------
 Terminologia
 -------------
