@@ -137,9 +137,10 @@ Tags
 $git tag -a v0.1 -m "mensaje" 57cc812
 //  crea un nuevo tag en el commit indicado
 
-$git show ref --tags
+$git show-ref --tags
 // muestra los tags asociados a cada commit 
 
+$git push origin --tags
 -------------
 Terminologia
 -------------
