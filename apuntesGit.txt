@@ -141,6 +141,7 @@ $git show-ref --tags
 // muestra los tags asociados a cada commit 
 
 $git push origin --tags
+// empuja hacia origin los tags
 -------------
 Terminologia
 -------------
@@ -151,4 +152,6 @@ luego se une con la rama original mediante un MERGE (mezcla las 2 ramas)
 Development >> es la experimental
 
 Master >> es la rama (branch) principal
+
+Devops >> Lideres de equipo, administradores del entorno de desarrollo
 
